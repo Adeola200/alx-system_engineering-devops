@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name '*.c' -type f -print0 | wc -l
+find . -type d -not -name '.' | wc -l
